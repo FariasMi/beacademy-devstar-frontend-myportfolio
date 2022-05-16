@@ -42,11 +42,18 @@ h2 span{
     padding: 1rem 2.6rem;
 }
 
-.btn-primary.empty{
-   border: 2px solid var(--primary-color);
-   border-radius: 2.4rem;
-   color:var(--primary-color);
-
+.empty{
+    border-radius: 2.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: var(--black-color);
+    padding: 1rem 2.6rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 2.4rem;
+    color:var(--primary-color);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
 }
 
 .menu-item{
