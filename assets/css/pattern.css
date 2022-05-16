@@ -82,7 +82,7 @@ h2 span{
 
  /* form pattern */
 
-input[type="text"],
+input[type="text"],input[type="email"],
 textarea {
   background-color: var(--semi-black);
   border: 1px solid var(--semi-black);
@@ -96,6 +96,11 @@ textarea {
 }
 
 input[type="text"]:hover,
+textarea:hover {
+  border: 1px solid var(--primary-color);
+}
+
+input[type="email"]:hover,
 textarea:hover {
   border: 1px solid var(--primary-color);
 }
