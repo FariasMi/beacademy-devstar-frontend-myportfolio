@@ -54,11 +54,14 @@ h2 span{
     width: 50%;
     margin: 0 auto;
     margin-top: 2rem;
+    
 }
 
-.menu-item{
+.menu-item {
     display: inline-block;
     color: var(--primary-color);
     font-weight: 700;
+    font-size: 1.6rem;
     line-height: 2.4rem;
-}
+    transition: all 0.2s;
+  }

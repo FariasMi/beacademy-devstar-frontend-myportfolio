@@ -43,11 +43,13 @@ header .container nav .menu-social li{
     margin-right: 3rem;
 }
 
+/* Section hero */
+
 .s-hero{
     background: url(../img/s-hero-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: fixed;
+    background-attachment: fixed;
 
 }
 
@@ -56,6 +58,7 @@ header .container nav .menu-social li{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 7rem;
 }
 
 .s-hero .container .title-box{
@@ -106,9 +109,8 @@ header .container nav .menu-social li{
     margin-top: 2.3rem;  
       
 } 
-.s-hero .container .title-box .btn-primary{
+.s-hero .container .title-box .empty{
     margin-top: 4rem;    
     padding: 1rem 5.6rem;
-   
-      
+    text-align: center;       
 } 
