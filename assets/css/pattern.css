@@ -8,6 +8,7 @@
     --white-color:#ffffff;
 }
 
+/*grid normal 12 columns*/
 .container{
     width: 100%;
     max-width: 1246px;
@@ -20,6 +21,7 @@
     width: 100%;
     padding: 0px 1.8rem;
 }
+/*title Patterns*/
 
 h2{
     font-family: 'Inter';
@@ -65,12 +67,43 @@ h2 span{
     line-height: 2.4rem;
     transition: all 0.2s;
   }
+.menu-item:hover {
+    color: var(--white-color);
+    transform: scale(1.04);
+}
 
-  .tag{
-      border-radius: 5rem;
-      padding: 0.6rem 2rem;
-      background-color: var(--white-color);
-      font-size: 1.2rem;
-      font-weight: 300;
+.tag{
+    border-radius: 5rem;
+    padding: 0.6rem 2rem;
+    background-color: var(--white-color);
+    font-size: 1.2rem;
+    font-weight: 300;
   }
-  
+
+ /* form pattern */
+
+input[type="text"],
+textarea {
+  background-color: var(--semi-black);
+  border: 1px solid var(--semi-black);
+  border-radius: 0.4rem;
+  width: 100%;
+  padding: 2rem;
+  resize: none;
+  color: var(--white-color);
+  outline: none;
+  transition: all 0.4s;
+}
+
+input[type="text"]:hover,
+textarea:hover {
+  border: 1px solid var(--primary-color);
+}
+
+.open-menu {
+  display: none;
+}
+
+.close-menu {
+  display: none;
+}
